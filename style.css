@@ -38,7 +38,8 @@ h2 {
 main {
     margin: 100px;
     margin-top: 20px;
-    border: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .student-gen-info {
@@ -248,7 +249,7 @@ footer {
 }
 
 footer p {
-    margin-bottom: -2em;
+    margin-bottom: -1.5em;
     font-size: 13px;
     text-align: right;
 }
