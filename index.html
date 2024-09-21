@@ -7,55 +7,56 @@
     </head>
 
     <body>
-        <header>
+        <header class="cor-header">
             <img src="C:\Users\ASUS\Desktop\Alvarez_COR\logo.jpg" alt="LOGO" width="100">
-            <div>
+            <div class="header">
                 <p>Republic of the Philippines</p>
                 <h1>Palawan State University</h1>
                 <p>Puerto Princesa City</p>
             </div>
             <div>
-                <h2>CERTIFICATE OF REGISTRATION</h2>
+                <h2 class="cor">CERTIFICATE OF REGISTRATION</h2>
                 <p>Registration No: 000367643</p>
             </div>
         </header>
 
-        <table>
+    <main>
+        <table class="student-gen-info">
             <tr>
-                <th colspan="3">STRUDENT GENERAL INFORMATION</th>
+                <th colspan="3" class="gen-info">STRUDENT GENERAL INFORMATION</th>
             </tr>
             <tr>
-                <td>Student No: 2021-8-0312</td>
-                <td>College: College of Sciences</td>
-                <td>School Year: 2024-2025 FIRST SEMETER</td>
+                <td><b>Student No: 2021-8-0312</b></td>
+                <td><b>College: </b>College of Sciences</td>
+                <td><b>School Year: 2024-2025 FIRST SEMETER</b></td>
             </tr>
             <tr>
-                <td>Name: ALVAREZ, AUDREY WINONA CASSANDRA BARAIRO</td>
-                <td>Program: Bachelor of Science in Information Technologies</td>
-                <td>Curriculum: 08-BSIT-2019</td>
+                <td><b>Name: ALVAREZ, AUDREY WINONA<br>CASSANDRA BARAIRO</b></td>
+                <td><b>Program: </b>Bachelor of Science in Information Technologies</td>
+                <td><b>Curriculum: </b>08-BSIT-2019</td>
             </tr>
             <tr>
                 <td></td>
-                <td>Major:</td>
-                <td>Scholarship:</td>
+                <td><b>Major:</b></td>
+                <td><b>Scholarship:</b></td>
             </tr>
             <tr>
-                <td>Gender: Female Age: 21</td>
-                <td>Year Level: 4th Year</td>
+                <td><b>Gender: </b>Female <b>Age: </b>21</td>
+                <td><b>Year Level: 4th Year</b></td>
                 <td></td>
             </tr>
         </table>
 
-        <table>
+        <table class="subject-info">
             <tr>
-                <th>CODE</th>
-                <th>SUBJECT TITTLE</th>
-                <th>U<br>LEC</th>
-                <th>N<br>LAB</th>
-                <th>I T<br>CREDIT</th>
-                <th>SECTION</th>
-                <th>SCHEDULE/ROOM</th>
-                <th>FACULTY SIGNATURE</th>
+                <th id="subject-code">CODE</th>
+                <th id="subject-title">SUBJECT TITTLE</th>
+                <th class="unit">U<br>Lec</th>
+                <th class="unit">N I<br>Lab</th>
+                <th class="unit">T<br>Credit</th>
+                <th id="section">SECTION</th>
+                <th id="schedule-room">SCHEDULE/ROOM</th>
+                <th id="faculty-signature">FACULTY SIGNATURE</th>
             </tr>
             <tr>
                 <td>IT 9/L</td>
@@ -65,7 +66,7 @@
                 <td>3.0</td>
                 <td>BSIT3B1</td>
                 <td>M 11:30 am - 01:30  pm/CL 2<br>W 10:30 am - 01:30 pm/MTC 1</td>
-                <td>Baguio, Kim C.</td>
+                <td class="faculty">Baguio, Kim C.</td>
             </tr>
             <tr>
                 <td>IT 10/L</td>
@@ -75,7 +76,7 @@
                 <td>3.0</td>
                 <td>BSIT3B1</td>
                 <td>M 01:30 pm - 04:30 pm/NIT 3<br>W 01:30 pm - 03:30 pm CL 1</td>
-                <td>Pabilona, Tiffany O.</td>
+                <td class="faculty">Pabilona, Tiffany O.</td>
             </tr>
             <tr>
                 <td>IT E3/L</td>
@@ -85,27 +86,27 @@
                 <td>3.0</td>
                 <td>BSIT3B1</td>
                 <td>T 04:30 pm - 07:30 pm/IT 101<br>Th 05:30 pm - 07:30 pm/CL 3</td>
-                <td>Dizon, Demy R.</td>
+                <td class="faculty">Dizon, Demy R.</td>
             </tr>
             <tr>
                 <td></td>
-                <td>Total Unit(s)</td>
-                <td>6.0</td>
-                <td>3.0</td>
-                <td>9.0</td>
+                <td id="total-units"><b>Total Unit(s)</b></td>
+                <td class="total"><b>6.0</b></td>
+                <td class="total"><b>3.0</b></td>
+                <td class="total"><b>9.0</b></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
         </table>
 
-        <div>
-            <p>Note: Subject marked with "*" is Special Subject.</p>
+        <div id="note">
+            <p><i>Note: Subject marked with "*" is Special Subject.</i></p>
         </div>
 
-        <table>
+        <table id="assessed-fees">
             <tr>
-                <th colspan="2">ASSESSED FEES</th>
+                <th id="assessment" colspan="2">ASSESSED FEES</th>
             </tr>
             <tr>
                 <td>Tuition Fee (9,000)</td>
@@ -159,20 +160,21 @@
                 <td>Internet Fee</td>
                 <td>400.00</td>
             </tr>
-            <tr>
-                <td>Total Assessment:</td>
-                <td>Php 4,990.00</td>
+            <tr class="total-payment">
+                <td><b>Total Assessment:</b></td>
+                <td><b>Php 4,990.00</b></td>
             </tr>
-            <tr>
-                <td>Total Payment:</td>
-                <td>0.00</td>
+            <tr class="total-payment">
+                <td><b>Total Payment:</b></td>
+                <td><b>0.00</b></td>
             </tr>
-                <td>Outstanding Balance:</td>
-                <td>Php 4,990.00</td>
+            <tr class="total-payment">
+                <td><b>Outstanding Balance:</b></td>
+                <td><b>Php 4,990.00</b></td>
             </tr>
         </table>
 
-        <table>
+        <table id="payment-sched">
             <tr>
                 <th colspan="3">SCHEDULE OF PAYMENT</th>
             </tr>
@@ -188,27 +190,28 @@
             </tr>
         </table>
 
-        <section>
+        <section id="refund-rules">
             <h3>RULES ON REFUND</h3>
             <ol>
-                <li>Full refund of tuition fee - Before the start of classes.</li>
-                <li>80% refund of tuition fee - within 1 week from the start of classes.</li>
-                <li>50% refund - within 2 weeks from the start of classes.</li>
-                <li>No refund - after the 2nd week of classes.</li>
+                <li><i>Full refund of tuition fee - Before the start of<br>classes.</i></li>
+                <li><i>80% refund of tuition fee - within 1 week from<br>the start of classes.</i></li>
+                <li><i>50% refund - within 2 weeks from the start of<br>classes.</i></li>
+                <li><i>No refund - after the 2nd week of classes.</i></li>
             </ol>
-            <p>Official Receipt: </p>
-            <p>Payment/Validation Date: 05-Aug-2024 10:05 am</p>
+            <p><b>Official Receipt: </p>
+            <p><b>Payment/Validation Date: 05-Aug-2024 10:05 am</p>
         </section>
         
-        <div>
-            <p>APPROVED BY:</p>
-            <p>CHERYLL ANNE C. DATOR, Ph.D.</p>
-            <p>UNIVERSITY REGISTRAR</p>
+        <div id="approval">
+            <p><b>APPROVED BY:</b></p>
+            <p><b>CHERYLL ANNE C. DATOR, Ph.D.</b></p>
+            <p><b>UNIVERSITY REGISTRAR</b></p>
         </div>
 
         <footer>
             <p>Date Printed: August 10, 2024 7:27:58 pm</p>
             <h4>KEEP THIS CERTIFICATE. YOU WILL BE REQUIRED TO PRESENT THID IN ALL YOUR DEALINGS WITH THE COLLEGE.</h4>
         </footer>
+    </main>
     </body>
 </html>
